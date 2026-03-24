@@ -53,5 +53,16 @@ Install SDK in javascript:
 ```bash
 npm install @elevenlabs/elevenlabs-js
 ```
-Generate API Key in https://platform.openai.com/
+Generate API Key in https://elevenlabs.io/app/developers
 Put the API Key in the .env.local file
+
+## Configure API in Vercel
+
+Install SDK in javascript: 
+
+```bash
+npm install ai
+# and install sdk of openai for example if we want to change AI provider
+npm install @ai-sdk/openai
+```
+Example to change AI provider in api\completion\route.ts
