@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "24": "^0.0.0",
+    "@elevenlabs/elevenlabs-js": "^2.40.0",
     "next": "^16.2.1",
     "openai": "^6.32.0",
     "react": "19.2.3",

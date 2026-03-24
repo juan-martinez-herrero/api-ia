@@ -45,3 +45,13 @@ npm install openai
 ```
 Generate API Key in https://platform.openai.com/
 Put the API Key in the .env.local file
+
+## Configure API in ElevenLabs
+
+Install SDK in javascript: 
+
+```bash
+npm install @elevenlabs/elevenlabs-js
+```
+Generate API Key in https://platform.openai.com/
+Put the API Key in the .env.local file
