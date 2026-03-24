@@ -68,6 +68,7 @@ export default function Home() {
 }
  */}
 
+  {/* Using Vecel  */}
 
  'use client';
 
