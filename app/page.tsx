@@ -60,6 +60,7 @@ export default function Home() {
           </a>
         </div>
       </main>
+        <elevenlabs-convai agent-id="agent_6201kmfw9a4bevh8j1z0s94c1vzd"></elevenlabs-convai><script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
     </div>
   );
 }
