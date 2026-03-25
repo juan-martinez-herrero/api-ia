@@ -46,7 +46,7 @@ export async function GET(request: NextRequest) {
     } else if (audio && typeof audio.getReader === 'function') {
         // Si es un ReadableStream, leerlo completamente
         const reader = audio.getReader();
-        let chunks = [];
+        const chunks = [];
         let done = false;
         while (!done) {
             const { value, done: doneReading } = await reader.read();
